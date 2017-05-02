@@ -1,0 +1,296 @@
+Problem2:
+Begin
+
+Number of processes: 55
+swapper,0,0,0,1,0,0
+	init,1,1,0,45,2,0
+		ueventd,45,1,1,0,62,0
+		logd,62,1,1,0,63,1036
+		vold,63,1,1,0,67,0
+		healthd,67,1,1,0,68,0
+		lmkd,68,1,1,0,69,0
+		servicemanager,69,1,1,0,70,1000
+		surfaceflinger,70,1,1,0,72,1000
+		qemud,72,1,1,0,75,0
+		sh,75,1,1,0,76,2000
+		adbd,76,1,1,16320,78,0
+			sh,16320,1,76,16325,1,0
+				testARM,16325,0,16320,0,1,0
+		debuggerd,78,1,1,0,79,0
+		rild,79,1,1,0,80,1001
+		drmserver,80,1,1,0,82,1019
+		installd,82,1,1,0,83,0
+		keystore,83,1,1,0,85,1017
+		gatekeeperd,85,1,1,0,86,1000
+		perfprofd,86,1,1,0,87,0
+		fingerprintd,87,1,1,0,1353,1000
+		bootanimation,1353,1,1,0,15990,1003
+		main,15990,1,1,16093,15991,0
+			system_server,16093,1,15990,0,1,1000
+		netd,15991,1,1,0,15992,0
+		mediaserver,15992,1,1,0,1,1013
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,6,0
+		khelper,6,1,2,0,7,0
+		sync_supers,7,1,2,0,8,0
+		bdi-default,8,1,2,0,9,0
+		kblockd,9,1,2,0,10,0
+		rpciod,10,1,2,0,11,0
+		kworker/0:1,11,1,2,0,12,0
+		kswapd0,12,1,2,0,13,0
+		fsnotify_mark,13,1,2,0,14,0
+		crypto,14,1,2,0,25,0
+		kworker/u:1,25,1,2,0,30,0
+		mtdblock0,30,1,2,0,35,0
+		mtdblock1,35,1,2,0,40,0
+		mtdblock2,40,1,2,0,41,0
+		binder,41,1,2,0,42,0
+		deferwq,42,1,2,0,43,0
+		kworker/u:2,43,1,2,0,44,0
+		mmcqd/0,44,1,2,0,47,0
+		jbd2/mtdblock0-,47,1,2,0,48,0
+		ext4-dio-unwrit,48,1,2,0,54,0
+		jbd2/mtdblock1-,54,1,2,0,55,0
+		ext4-dio-unwrit,55,1,2,0,60,0
+		jbd2/mtdblock2-,60,1,2,0,61,0
+		ext4-dio-unwrit,61,1,2,0,98,0
+		kauditd,98,1,2,0,1344,0
+		flush-31:1,1344,1,2,0,6119,0
+		kworker/0:0,6119,1,2,0,0,0
+End
+
+Problem3:
+515010910101Child PID:16327
+Begin
+
+Number of processes: 56
+swapper,0,0,0,1,0,0
+	init,1,1,0,45,2,0
+		ueventd,45,1,1,0,62,0
+		logd,62,1,1,0,63,1036
+		vold,63,1,1,0,67,0
+		healthd,67,1,1,0,68,0
+		lmkd,68,1,1,0,69,0
+		servicemanager,69,1,1,0,70,1000
+		surfaceflinger,70,2,1,0,72,1000
+		qemud,72,1,1,0,75,0
+		sh,75,1,1,0,76,2000
+		adbd,76,1,1,16320,78,0
+			sh,16320,1,76,16326,1,0
+				test2ARM,16326,1,16320,16327,1,0
+					testARM,16327,0,16326,0,1,0
+		debuggerd,78,1,1,0,79,0
+		rild,79,1,1,0,80,1001
+		drmserver,80,1,1,0,82,1019
+		installd,82,1,1,0,83,0
+		keystore,83,1,1,0,85,1017
+		gatekeeperd,85,1,1,0,86,1000
+		perfprofd,86,1,1,0,87,0
+		fingerprintd,87,1,1,0,1353,1000
+		bootanimation,1353,1,1,0,15990,1003
+		main,15990,1,1,16093,15991,0
+			system_server,16093,1,15990,0,1,1000
+		netd,15991,1,1,0,15992,0
+		mediaserver,15992,1,1,0,1,1013
+	kthreadd,2,1,0,3,0,0
+		ksoftirqd/0,3,1,2,0,6,0
+		khelper,6,1,2,0,7,0
+		sync_supers,7,1,2,0,8,0
+		bdi-default,8,1,2,0,9,0
+		kblockd,9,1,2,0,10,0
+		rpciod,10,1,2,0,11,0
+		kworker/0:1,11,1,2,0,12,0
+		kswapd0,12,1,2,0,13,0
+		fsnotify_mark,13,1,2,0,14,0
+		crypto,14,1,2,0,25,0
+		kworker/u:1,25,1,2,0,30,0
+		mtdblock0,30,1,2,0,35,0
+		mtdblock1,35,1,2,0,40,0
+		mtdblock2,40,1,2,0,41,0
+		binder,41,1,2,0,42,0
+		deferwq,42,1,2,0,43,0
+		kworker/u:2,43,1,2,0,44,0
+		mmcqd/0,44,1,2,0,47,0
+		jbd2/mtdblock0-,47,1,2,0,48,0
+		ext4-dio-unwrit,48,1,2,0,54,0
+		jbd2/mtdblock1-,54,1,2,0,55,0
+		ext4-dio-unwrit,55,1,2,0,60,0
+		jbd2/mtdblock2-,60,1,2,0,61,0
+		ext4-dio-unwrit,61,1,2,0,98,0
+		kauditd,98,1,2,0,1344,0
+		flush-31:1,1344,1,2,0,6119,0
+		kworker/0:0,6119,1,2,0,0,0
+End
+515010910101Parent PID:16326
+
+Problem4:
+root@generic:/ # /data/misc/BBC 5 5 40 6                                       
+Cooks[5],Cashiers[5],Customers[40],Rack[6].
+Customer[6] comes.
+Customer[11] comes.
+Customer[7] comes.
+Cashier[5] accepts an order.
+Cashier[4] accepts an order.
+Customer[1] comes.
+Cashier[3] accepts an order.
+Cashier[2] accepts an order.
+Cook[1] makes a burger.
+Cook[2] makes a burger.
+Cook[3] makes a burger.
+Customer[5] comes.
+Cashier[1] accepts an order.
+Customer[2] comes.
+Cook[4] makes a burger.
+Cook[5] makes a burger.
+Cook[1] makes a burger.
+Cashier[5] takes a burger to a customer.
+Cashier[5] accepts an order.
+Cook[2] makes a burger.
+Cashier[4] takes a burger to a customer.
+Cashier[3] takes a burger to a customer.
+Cook[3] makes a burger.
+Customer[8] comes.
+Cashier[4] accepts an order.
+Customer[9] comes.
+Cashier[3] accepts an order.
+Customer[17] comes.
+Customer[4] comes.
+Customer[3] comes.
+Cook[4] makes a burger.
+Cashier[2] takes a burger to a customer.
+Cashier[1] takes a burger to a customer.
+Cook[5] makes a burger.
+Cashier[2] accepts an order.
+Cashier[1] accepts an order.
+Cook[1] makes a burger.
+Cashier[5] takes a burger to a customer.
+Cashier[5] accepts an order.
+Cook[2] makes a burger.
+Customer[27] comes.
+Cashier[4] takes a burger to a customer.
+Cook[3] makes a burger.
+Cashier[4] accepts an order.
+Cashier[3] takes a burger to a customer.
+Cook[4] makes a burger.
+Cashier[2] takes a burger to a customer.
+Cashier[1] takes a burger to a customer.
+Cook[5] makes a burger.
+Cook[1] makes a burger.
+Cashier[5] takes a burger to a customer.
+Cook[2] makes a burger.
+Customer[15] comes.
+Cashier[3] accepts an order.
+Customer[23] comes.
+Cashier[4] takes a burger to a customer.
+Cashier[4] accepts an order.
+Cook[3] makes a burger.
+Customer[14] comes.
+Cashier[2] accepts an order.
+Customer[20] comes.
+Cashier[1] accepts an order.
+Cashier[3] takes a burger to a customer.
+Cashier[4] takes a burger to a customer.
+Cook[3] makes a burger.
+Cook[4] makes a burger.
+Cashier[2] takes a burger to a customer.
+Cook[5] makes a burger.
+Customer[28] comes.
+Cashier[5] accepts an order.
+Customer[13] comes.
+Cashier[3] accepts an order.
+Cashier[1] takes a burger to a customer.
+Cook[1] makes a burger.
+Customer[31] comes.
+Cashier[4] accepts an order.
+Cashier[5] takes a burger to a customer.
+Cook[2] makes a burger.
+Cashier[3] takes a burger to a customer.
+Customer[22] comes.
+Customer[25] comes.
+Cook[1] makes a burger.
+Cashier[2] accepts an order.
+Cashier[1] accepts an order.
+Customer[24] comes.
+Cashier[5] accepts an order.
+Cashier[4] takes a burger to a customer.
+Cook[3] makes a burger.
+Cashier[2] takes a burger to a customer.
+Cashier[1] takes a burger to a customer.
+Cook[4] makes a burger.
+Cook[5] makes a burger.
+Cashier[5] takes a burger to a customer.
+Cook[2] makes a burger.
+Customer[10] comes.
+Cashier[3] accepts an order.
+Customer[19] comes.
+Customer[36] comes.
+Cashier[4] accepts an order.
+Cashier[2] accepts an order.
+Cashier[3] takes a burger to a customer.
+Cook[1] makes a burger.
+Customer[12] comes.
+Cashier[1] accepts an order.
+Customer[18] comes.
+Cashier[5] accepts an order.
+Customer[21] comes.
+Cashier[3] accepts an order.
+Cashier[4] takes a burger to a customer.
+Cashier[2] takes a burger to a customer.
+Cook[1] makes a burger.
+Cook[3] makes a burger.
+Cashier[1] takes a burger to a customer.
+Cook[4] makes a burger.
+Customer[40] comes.
+Cashier[5] takes a burger to a customer.
+Cook[5] makes a burger.
+Cashier[3] takes a burger to a customer.
+Cook[2] makes a burger.
+Cashier[4] accepts an order.
+Customer[35] comes.
+Cashier[2] accepts an order.
+Cashier[4] takes a burger to a customer.
+Cook[1] makes a burger.
+Cashier[2] takes a burger to a customer.
+Cook[3] makes a burger.
+Customer[16] comes.
+Cashier[1] accepts an order.
+Customer[30] comes.
+Cashier[1] takes a burger to a customer.
+Cashier[1] accepts an order.
+Cook[4] makes a burger.
+Cashier[1] takes a burger to a customer.
+Cook[2] makes a burger.
+Customer[39] comes.
+Cashier[5] accepts an order.
+Cook[5] makes a burger.
+Cashier[5] takes a burger to a customer.
+Customer[26] comes.
+Cashier[3] accepts an order.
+Cashier[3] takes a burger to a customer.
+Cook[1] makes a burger.
+Customer[29] comes.
+Cashier[2] accepts an order.
+Cashier[2] takes a burger to a customer.
+Cook[3] makes a burger.
+Customer[37] comes.
+Cashier[4] accepts an order.
+Cashier[4] takes a burger to a customer.
+Cook[4] makes a burger.
+Customer[32] comes.
+Cashier[1] accepts an order.
+Cashier[1] takes a burger to a customer.
+Cook[2] makes a burger.
+Customer[33] comes.
+Cashier[5] accepts an order.
+Cashier[5] takes a burger to a customer.
+Cook[5] makes a burger.
+Customer[34] comes.
+Cashier[3] accepts an order.
+Cashier[3] takes a burger to a customer.
+Cook[1] makes a burger.
+Customer[38] comes.
+Cashier[2] accepts an order.
+Cashier[2] takes a burger to a customer.
+Cook[3] makes a burger.
+
+

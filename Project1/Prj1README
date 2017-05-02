@@ -1,0 +1,22 @@
+# CS356-SJTU-OperatingSystem-Project1
+## Android Process Tree
+
+## Problem1
+* Makefile - Makefile to generate .ko and so on
+* prinfo.h - Headfile of printpstree.c
+* printpstree.c - C++ source file for the module
+
+## Problem2f
+* Android.mk - To generate executable file for android
+* prinfo.h - Headfile of test.c
+* test.c - C++ source file to call and test the system call
+
+## Problem3
+* Android.mk - To generate executable file for android
+* test2.c - C++ source file to achieve problem3
+
+## Problem4(Burger Buddies Problem)
+* Android.mk - To generate executable file for android
+* BurgerBubbles.c - C++ source file to simulate Burger Bubbles Problem
+
+
