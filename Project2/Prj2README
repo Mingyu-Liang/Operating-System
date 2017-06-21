@@ -1,0 +1,12 @@
+File statements:
+
+1. Problem2/Syscall/pagetable_syscall.c: this program implements two system calls 356 and 357 : get_pagetable_layout and expose_page_table.
+
+2. Problem2/KernelChange/(mm.h and pagewalk.c): these two files in kernel are changed to export symbol so that the function walk_page_range() can be used in .ko file for my syscall.
+
+3. Problem2/VATranslate/jni/VATranslate.c: to translate the virtual address to physical address in the target process.
+
+4. Problem3/vm_inspector/jni/vm_inspector.c: to dump the page table entries of a process in given range.
+
+5. Problem4(mm.h,swap.c,vmscan.c): These three files are changed to implement the new page replacement algorithm and how the codes are changed are shown at the start of each program.
+
