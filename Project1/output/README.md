@@ -25,7 +25,7 @@
 * Cashiers sleep until a customer is present.
 * A Customer approaching a cashier can start the order process.
 * A Customer cannot order until the cashier is ready.
-* 0nce the order is placed, a cashier has to get a burger from the rack.
+* Once the order is placed, a cashier has to get a burger from the rack.
 * If a burger is not available, a cashier must wait until one is made.
 * The cook will always make burgers and place them on the
   rack.
